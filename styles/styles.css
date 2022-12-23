@@ -93,7 +93,7 @@ a {
 }
 .btn[data-icon="shopping-cart"]::before {
     content: "";
-    background-image: url(../images/icons/shop.png);
+    background-image: url(../images/icons/trolley-cart.png);
     height: 16px;
     width: 16px;
 }
