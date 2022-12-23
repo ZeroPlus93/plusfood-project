@@ -146,4 +146,7 @@ a {
     .menu-btn {
         display: flex;
     }
+    .title {
+        font-size: 2rem;
+    }
 }
