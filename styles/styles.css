@@ -110,6 +110,7 @@ a {
     position: fixed;
     top: 0;
     left: 0;
+    display: none;
 }
 #side-drawer ul {
     list-style: none;
@@ -123,6 +124,16 @@ a {
     color: wheat;
     font-size: 2.5rem;
     font-weight: bold;
+}
+#side-drawer header {
+    height: 5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 1em;
+}
+#side-drawer:target {
+    display: block;
 }
 
 @media (max-width: 48rem){
