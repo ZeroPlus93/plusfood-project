@@ -70,7 +70,7 @@ a {
     color: rgb(75, 75, 75);
     margin-bottom: 1rem;
 }
-.images {
+.item__content--img {
     height: 20rem;
     width: 100%;
     object-fit: cover;
