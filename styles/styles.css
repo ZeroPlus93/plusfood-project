@@ -52,4 +52,21 @@ a {
 }
 #latest-products {
     width: 80%;
+    margin: 0 auto;
 }
+.item__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    gap: 3rem;
+}
+.item__content--text {
+    background-color: wheat;
+    text-align: center;
+}
+.images {
+    height: 20rem;
+    width: 100%;
+    object-fit: cover;
+}
+
