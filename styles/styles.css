@@ -66,9 +66,11 @@ a {
     padding: 1em;
     flex: 1;
 }
-.item__content--text h2 {
+.item__content--text h2,
+.item__content--text .price {
     color: rgb(75, 75, 75);
     margin-bottom: 1rem;
+    font-weight: bold;
 }
 .item__content--img {
     height: 20rem;
