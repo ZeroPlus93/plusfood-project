@@ -14,3 +14,33 @@ body {
 a {
     text-decoration: none;
 }
+#main-header {
+    height: 5rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1em;
+}
+#main-header ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+.logo span {
+    font-weight: 300;
+}
+.nav__links a{
+    color: rgb(255, 189, 66);
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.nav__links a:hover {
+    color: rgb(255, 208, 120);
+}
+.logo {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(255, 189, 66);
+}
