@@ -63,13 +63,29 @@ a {
 .item__content--text {
     background-color: wheat;
     text-align: center;
+    padding: 1em;
+}
+.item__content--text h2 {
+    color: rgb(75, 75, 75);
+    margin-bottom: 1rem;
 }
 .images {
     height: 20rem;
     width: 100%;
     object-fit: cover;
 }
+.btn {
+    background-color: rgb(255, 166, 0);
+    color: rgb(255, 255, 255);
+    padding: 0.5em 1em;
+    border-radius: 8px;
+}
+.btn:hover {
+    background-color: rgb(252, 194, 87);
+}
 .item__content{
     display: flex;
     flex-direction: column;
+    border-radius: 8px;
+    overflow: hidden;
 }
