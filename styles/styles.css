@@ -65,11 +65,13 @@ a {
     text-align: center;
     padding: 1em;
     flex: 1;
+    display: grid;
+    gap: 1rem;
 }
 .item__content--text h2,
 .item__content--text .price {
     color: rgb(75, 75, 75);
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
     font-weight: bold;
 }
 .item__content--img {
