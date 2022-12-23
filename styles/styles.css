@@ -64,6 +64,7 @@ a {
     background-color: wheat;
     text-align: center;
     padding: 1em;
+    flex: 1;
 }
 .item__content--text h2 {
     color: rgb(75, 75, 75);
@@ -88,4 +89,9 @@ a {
     flex-direction: column;
     border-radius: 8px;
     overflow: hidden;
+}
+@media (max-width: 48rem){
+    .item__list {
+        grid-template-columns: 1fr;
+    }
 }
