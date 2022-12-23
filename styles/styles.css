@@ -103,6 +103,28 @@ a {
     width: 100%;
     background-color: white;
 }
+#side-drawer {
+    background-color: rgb(41, 41, 41);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+#side-drawer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+#side-drawer a {
+    color: wheat;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
 @media (max-width: 48rem){
     .item__list {
         grid-template-columns: 1fr;
