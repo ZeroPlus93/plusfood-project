@@ -59,6 +59,8 @@ a {
     grid-template-columns: 1fr 1fr;
     list-style: none;
     gap: 3rem;
+    max-width: 62.5rem;
+    margin: 0 auto;
 }
 .item__content--text {
     background-color: wheat;
